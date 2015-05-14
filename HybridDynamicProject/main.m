@@ -1,15 +1,17 @@
 //
 //  main.m
-//  HybridDynamicProject
+//  almasryalyoum
 //
-//  Created by Mohamed Mansour on 1/28/15.
-//  Copyright (c) 2015 Mohamed Mansour. All rights reserved.
+//  Created by MohamedMansour on 9/18/14.
+//  Copyright (c) 2014 Sarmady.net. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+
 #import "AppDelegate.h"
 
-int main(int argc, char * argv[]) {
+int main(int argc, char * argv[])
+{
     @autoreleasepool {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }

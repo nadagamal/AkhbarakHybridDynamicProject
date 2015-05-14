@@ -1,17 +1,23 @@
 //
 //  AppDelegate.h
-//  HybridDynamicProject
+//  hrm
 //
-//  Created by Mohamed Mansour on 1/28/15.
-//  Copyright (c) 2015 Mohamed Mansour. All rights reserved.
+//  Created by MohamedMansour on 3/24/13.
+//  Copyright (c) 2013 MohamedMansour. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+#import "RefreshViewController.h"
+#import "SplashViewController.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate,RefreshDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
 
+@property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
+@property(nonatomic,retain) NSString *pushedUrl;
+@property(nonatomic,retain) RefreshViewController *refreshViewController;
+@property(nonatomic,assign)BOOL isFirstLoad;
+@property(nonatomic,strong) SplashViewController *splashViewController;
 
 @end
-

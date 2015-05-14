@@ -1,0 +1,16 @@
+//Button titles
+"close_btn" = "Close";
+"cancel_btn" = "Cancel";
+"delete_btn" = "Delete";
+"show_btn" = "Show";
+"ok_btn" = "Ok";
+"mark_as_read_btn" = "Mark As Read";
+"mark_as_unread_btn" = "Mark As Unread";
+"deselect_all_btn" = "Deselect All";
+"select_all_btn" = "Select All";
+"delete_notifications_btn" = "Delete Notifications";
+
+//Alert or navigation titles
+"notifications_title" = "Notifications";
+"notification_title" = "Notification";
+"inbox_title" = "Inbox";

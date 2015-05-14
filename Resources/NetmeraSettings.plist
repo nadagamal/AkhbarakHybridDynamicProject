@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApiKey</key>
+	<string>ZGoweEpuVTlOVFEyTVdSa05qaGxOR0l3WldNNFpXRTROV1ZoTXpGaUpuSTlNQ1poUFdGcmFHSmhjbUZySmc=</string>
+	<key>PushInboxEnabled</key>
+	<true/>
+	<key>PushInboxBadgeUpdateEnabled</key>
+	<true/>
+	<key>SignificantLocationChangeTrackingEnabled</key>
+	<true/>
+	<key>RichPushShouldBeShownImmediately</key>
+	<true/>
+	<key>RichPushShouldShowProgressHUD</key>
+	<true/>
+</dict>
+</plist>

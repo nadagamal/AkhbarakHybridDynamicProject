@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController">
+            <connections>
+                <outlet property="aboutBtn" destination="YUr-3c-hC6" id="fsM-mD-aSH"/>
+                <outlet property="homeBtn" destination="qhw-SO-D6Y" id="4ps-Si-1CE"/>
+                <outlet property="scrollView" destination="Ltr-4P-WGc" id="LK4-Us-886"/>
+                <outlet property="settingBtn" destination="ShV-yM-kjP" id="pN5-2i-HzU"/>
+                <outlet property="shareBtn" destination="Ezs-ni-mdn" id="0gV-Y8-iYb"/>
+                <outlet property="tabBar" destination="KPv-4r-8cE" id="PTo-qj-VFv"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="KPv-4r-8cE">
+                    <rect key="frame" x="0.0" y="431" width="320" height="49"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="qhw-SO-D6Y">
+                            <rect key="frame" x="240" y="0.0" width="80" height="48"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="news.png"/>
+                            <state key="selected" image="news_active.png"/>
+                            <state key="highlighted" image="news_active.png"/>
+                            <connections>
+                                <action selector="homeBtnTaped:" destination="-1" eventType="touchUpInside" id="Pqg-Ji-oWi"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Ezs-ni-mdn">
+                            <rect key="frame" x="160" y="0.0" width="80" height="48"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="videos.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" image="videos_active.png"/>
+                            <state key="highlighted" image="videos_active.png"/>
+                            <connections>
+                                <action selector="shareBtnTaped:" destination="-1" eventType="touchUpInside" id="l4I-Bk-tnd"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ShV-yM-kjP">
+                            <rect key="frame" x="80" y="0.0" width="80" height="48"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="settings.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" image="settings_active.png"/>
+                            <state key="highlighted" image="settings_active.png"/>
+                            <connections>
+                                <action selector="settingBtnTaped:" destination="-1" eventType="touchUpInside" id="nCR-tg-R2b"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="YUr-3c-hC6">
+                            <rect key="frame" x="0.0" y="0.0" width="80" height="48"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="تواصل معنا" image="about.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" image="about_active.png"/>
+                            <state key="highlighted" image="about_active.png"/>
+                            <connections>
+                                <action selector="aboutBtnTaped:" destination="-1" eventType="touchUpInside" id="gUC-Ve-qJX"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.18431372940540314" green="0.18431372940540314" blue="0.18431372940540314" alpha="1" colorSpace="deviceRGB"/>
+                </view>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" tag="200" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="Ltr-4P-WGc">
+                    <rect key="frame" x="0.0" y="20" width="320" height="411"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="LXZ-6n-UxF"/>
+                    </connections>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="about.png" width="159" height="96"/>
+        <image name="about_active.png" width="159" height="96"/>
+        <image name="news.png" width="160" height="96"/>
+        <image name="news_active.png" width="160" height="96"/>
+        <image name="settings.png" width="160" height="96"/>
+        <image name="settings_active.png" width="160" height="96"/>
+        <image name="videos.png" width="160" height="96"/>
+        <image name="videos_active.png" width="160" height="96"/>
+    </resources>
+</document>
